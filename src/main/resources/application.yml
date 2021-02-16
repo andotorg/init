@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+
+linedot:
+  server:
+    host: 127.0.0.1
+    port: 8001
+  reconnect:
+    count: 3
+
+
+spring:
+  redis:
+    host: 127.0.0.1
+    database: 1
+
+logging:
+  level:
+    web: DEBUG
+
